@@ -9,10 +9,10 @@ public class main {
         people.add(new Student("James Student", "English"));
         people.add(new UnderGrad("Derek Undergrad", "Engineering", "Junior"));
         people.add(new Grad("Jake Graduate", "Math", "Master"));
-        people.add(new Instructor("Jim Instructor", 60000l));
+        people.add(new Instructor("Jim Instructor", 60000L));
         for (Person person : people) {
             person.printInfo();
-            System.out.println();
+            System.out.println("--------------------\n");
         }
     }
 }
